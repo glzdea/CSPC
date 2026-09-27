@@ -29,3 +29,7 @@ Conclusion:
 
 The NumPy implementation was much faster than the pure-Python loop in this benchmark.
 The tests confirm that the simulation starts at N0, rejects negative decay rates, and agrees with the an
+
+PW1 — Lab B
+
+The observed data showed a decreasing count over time, which is consistent with radioactive decay. The observed data followed the same general decreasing trend as the analytical law (N(t)=N_0e^{-0.3t}). The Snakemake pipeline automatically generates figure.png from decay_observed.csv using plot.py.
